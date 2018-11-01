@@ -1,0 +1,169 @@
+/* -------------------------------------- */
+/* BASIC SETUP */
+/* -------------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-image: url(img/1DD-Medical-Brushes-Previewbig.jpg);
+    background-size: 50%;
+    background-color: #fff;
+    color: #555;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    text-rendering: optimizeLegibility;
+}
+
+h1 {
+    font-size: 50px;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    padding: 20px 0;
+    font-weight: lighter
+}
+
+h2 {
+    font-weight: lighter;
+    padding: 40px;
+    text-align: center;
+    
+}
+
+h3 {
+    padding-bottom: 40px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.annotation {
+    text-align: right;
+    padding-top: 20px;
+    font-size: 75%;
+    color: rgba(91, 97, 162, 0.65);
+}
+
+
+/* -------------------------------------- */
+/* WELCOME */
+/* -------------------------------------- */
+
+.section-welcome {
+    
+    background-image: linear-gradient(rgb(162, 162, 226), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+}
+
+.head-logo {
+    width: 200px;
+    height: auto;
+    float: left;
+    margin-left: 50px;
+}
+
+.main-nav li {
+    float: left;
+    padding-top: 20px;
+    margin-right: 50px;
+    text-transform: uppercase; 
+    display: inline-block;
+    margin-top: 50px;
+}
+.main-nav li:first-child{
+    margin-left: 100px;
+}
+.main-nav li a:hover,
+.main-nav li a:active{
+    color: #253b64;
+    border-bottom: 2px solid;
+    padding-bottom: 10px;
+    transition: border 0.2s, color 0.2s;
+}
+
+.welcome-img-mockup {
+    width: 500px;
+    height: auto;
+}
+
+
+.welcome-text {
+    text-align: right;
+    font-size: 17px;
+    color: rgba(85, 85, 85, 0.7);   
+}
+
+
+.app-store-logo {
+    width: 200px;
+    float: right;
+    margin-top: 60px;
+}
+
+.app-store-logo:hover,
+.app-storelogo:active {
+    filter: invert(100%);
+    transition: filter 0.5s;
+}
+
+
+/* -------------------------------------- */
+/* FEATURES */
+/* -------------------------------------- */
+
+.section-features {
+    background-image: linear-gradient(aliceblue, aliceblue, aliceblue, rgb(162, 162, 226));
+    
+}
+
+.table-features  {
+    margin: 0 100px;
+    padding-bottom: 100px;
+}
+
+
+.table-features img {
+    width: 400px;
+    height: auto;
+}
+
+.feature-text {
+    text-align: justify;
+}
+
+/* -------------------------------------- */
+/* CONTACTS */
+/* -------------------------------------- */
+
+.section-contacts {
+    background-color: rgb(162, 162, 226);
+}
+.table-contacts {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.table-contacts img {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+    padding: 50px;
+    margin-left: 50px;
+}
+
+.email-link:link,
+.email-link:visited {
+    color: #bdd8f0;
+    font-size: 80%;
+    
+}
+.email-link:hover,
+.email-link:active {
+    color: #fff;
+    font-weight: 200;
+    
+}
